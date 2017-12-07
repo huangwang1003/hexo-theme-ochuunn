@@ -3,14 +3,14 @@ $(function () {
     particlesJS("particles-oli-wrapper", {
         "particles": {
             "number": {
-                "value": 40,
+                "value": 180,
                 "density": {
                     "enable": true,
                     "value_area": 800
                 }
             },
             "color": {
-                "value": "#399c9c"
+                "value": "#fff"
             },
             "shape": {
                 "type": "circle",
@@ -28,8 +28,8 @@ $(function () {
                 // }
             },
             "opacity": {
-                "value": 0.3,
-                "random": false,
+                "value": 0.5,
+                "random": true,
                 "anim": {
                     "enable": false,
                     "speed": 1,
@@ -38,27 +38,27 @@ $(function () {
                 }
             },
             "size": {
-                "value": 20,
+                "value": 10,
                 "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 30,
+                    "speed": 40,
                     "size_min": 0.1,
                     "sync": false
                 }
             },
             "line_linked": {
-                "enable": true,
+                "enable": false,
                 "distance": 250,
-                "color": "#40afaf",
-                "opacity": 0.3,
-                "width": 1
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 2
             },
             "move": {
                 "enable": true,
-                "speed": 3,
-                "direction": "none",
-                "random": true,
+                "speed": 6,
+                "direction": "bottom",
+                "random": false,
                 "straight": false,
                 "out_mode": "out",
                 "bounce": true,
@@ -74,22 +74,38 @@ $(function () {
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "grab"
+                    "mode": "bubble"
                 },
                 "onclick": {
                     "enable": true,
-                    "mode": "push"
+                    "mode": "repulse"
                 },
                 "resize": true
             },
             "modes": {
                 "grab": {
-                    "distance": 140,
+                    "distance": 400,
                     "line_linked": {
-                        "opacity": 1
+                        "opacity": 0.5
                     }
                 },
-
+                "bubble": {
+                    "distance": 400,
+                    "size": 4,
+                    "duration": 0.3,
+                    "opacity": 1,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
             }
         },
         "retina_detect": true

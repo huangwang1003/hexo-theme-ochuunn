@@ -1,6 +1,7 @@
 # head
 menu:
-  カタログ/（目录）: /archives
+  MENU: /archives
+  ABOUT: /about
   # sitemap: /sitemap.xml
   # other menus
 
@@ -10,10 +11,10 @@ favicon: /favicon.png
 date_format: 'MMMM D, YYYY'
 
 google_verification: false  # your token
-google_analytics: false   # your id
+google_analytics: UA-87613819-1   # your id
 
 livere_id: 'city'
-livere_uid: 'your uid'
+livere_uid: 'MTAyMC8zMjExMS84Njc1'
 
 start_year: 2016
 
