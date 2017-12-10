@@ -1,15 +1,16 @@
 .highlight
   overflow: auto
-  // background-color: $highlight-background
+  background-color: $highlight-background
   color: $highlight-foreground
-  border: 1px solid $border-color
+  border: 1px solid $content-bg-color
 
   .gutter
-    color: #666
-    display: none
+    @extend $line-numbers
+    text-align: right
+    padding-right: 20px
 
   .code
-    padding: 1em 45px
+    padding: 1em 15px
 
   figcaption
     margin-bottom: 1em

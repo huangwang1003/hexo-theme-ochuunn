@@ -13,8 +13,8 @@ date_format: 'MMMM D, YYYY'
 google_verification: false  # your token
 google_analytics: UA-87613819-1   # your id
 
-livere_id: 'city'
-livere_uid: 'MTAyMC8zMjExMS84Njc1'
+livere_id: 
+livere_uid: 
 
 start_year: 2016
 
@@ -23,4 +23,9 @@ reward_images: # add your qr image
 #   url: '/img/wechat.png'
 # - type: '支付宝' 
 #   url: '/img/wechat.png'
- 
+disqus_shortname: huangwang
+
+theme_color: '#DC143C'
+background_color: '#FFC0CB'
+link_color: '#FF69B4'
+link_color_hover: '#DB7093'
